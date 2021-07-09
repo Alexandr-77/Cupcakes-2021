@@ -535,16 +535,20 @@ a {
     display: flex;
 }
 .slick-prev {
-    left: 45%;
+    left: 43%;
     top: auto;
-    bottom: -130px;
+    bottom: -197px;
     z-index: 1;
+    width: 65px;
+    height: 65px;
 }
 .slick-next {
-    right: 45%;
+    right: 43%;
     top: auto;
-    bottom: -130px;
+    bottom: -197px;
     z-index: 1;
+    width: 65px;
+    height: 65px;
 }
 .slick-prev:before {
     content: '←';
@@ -941,14 +945,14 @@ input[type=number]::-webkit-outer-spin-button {
         padding-bottom: 330px;
     }
     .slick-prev {
-        left: 43%;
+        left: 39%;
         top: auto;
-        bottom: -70px;
+        bottom: -140px;
     }
     .slick-next {
-        right: 43%;
+        right: 39%;
         top: auto;
-        bottom: -70px;
+        bottom: -140px;
     }
     .galary h2 {
         font-size: 37px;
@@ -976,6 +980,16 @@ input[type=number]::-webkit-outer-spin-button {
 @media (max-width: 870px) {
     .slick-initialized .slick-slide {
         display: block;
+    }
+    .slick-prev {
+        left: 37%;
+        top: auto;
+        bottom: -140px;
+    }
+    .slick-next {
+        right: 37%;
+        top: auto;
+        bottom: -140px;
     }
     .carusel__item-foto {
         padding: 25px 0 0;
@@ -1100,10 +1114,10 @@ input[type=number]::-webkit-outer-spin-button {
         line-height: 22px;
     }
     .slick-next {
-        right: 38%;
+        right: 35%;
     }
     .slick-prev {
-        left: 38%;
+        left: 35%;
     }
     .galary h2 {
         font-size: 28px;
@@ -1233,6 +1247,12 @@ input[type=number]::-webkit-outer-spin-button {
     .galary h3 {
         font-size: 12px;
         margin: 5px 0 22px;
+    }
+    .slick-next {
+        right: 33%;
+    }
+    .slick-prev {
+        left: 33%;
     }
 }
 /* ====== Медиа 576px /====== */
@@ -1530,10 +1550,16 @@ input[type=number]::-webkit-outer-spin-button {
         font-size: 12px;
     }
     .slick-next {
-        right: 38%;
+        bottom: -100px;
+        right: 34%;
+        width: 40px;
+        height: 40px;
     }
     .slick-prev {
-        left: 38%;
+        bottom: -100px;
+        left: 34%;
+        width: 40px;
+        height: 40px;
     }
     .slick-prev:before {
         width: 40px;
