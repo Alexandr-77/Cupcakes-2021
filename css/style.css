@@ -262,6 +262,7 @@ a {
     text-align: center;
     border-radius: 8px;
     background: var(--color-bg-yellow);
+    color: var(--color-text);
     margin-bottom: 50px;
     transition: all .5s;
     -webkit-transition: all .5s;
